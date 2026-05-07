@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .button{
+        @apply border-b-2 pb-1 mt-2 w-[100%] text-start pl-2 hover:bg-[#ff5f2e] rounded-lg hover:text-white;
+    }
+}
+
+/* Hide scrollbar but keep scroll working */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE & Edge */
+  scrollbar-width: none;     /* Firefox */
+}
