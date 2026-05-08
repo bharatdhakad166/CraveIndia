@@ -4,14 +4,13 @@ import { updateProfile } from "firebase/auth";
 
 
 const firebaseConfig = {
-  apiKey:  import.meta.env.VITE_FIREBASE_API_ID,
-  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
-  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
-  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
-  appId: import.meta.env.VITE_FIREBASE_APP_ID,
+  apiKey: "AIzaSyANJSuM0umx6c_lXJAGGMdIhqJy2runxKM",
+  authDomain: "craveindia-b2c8d.firebaseapp.com",
+  projectId: "craveindia-b2c8d",
+  storageBucket: "craveindia-b2c8d.firebasestorage.app",
+  messagingSenderId: "192664586966",
+  appId: "1:192664586966:web:b63b034513c2c834e0d777",
 };
-
 
 const app = initializeApp(firebaseConfig);
 
