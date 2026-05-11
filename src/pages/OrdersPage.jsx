@@ -61,9 +61,6 @@ function OrderPage() {
               >
                 <div className="flex justify-between items-center mb-4">
                   <div>
-                    <h2 className="font-semibold text-gray-800">
-                      #{order.orderId}
-                    </h2>
                     <p className="text-xs text-gray-400">{order.date}</p>
                   </div>
 
