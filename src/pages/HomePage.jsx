@@ -1,8 +1,8 @@
-import heroImg from '../assets/Images/Hero Food Image.png'
 import TrendingItems from '../components/TrendingItems.jsx'
 import category from '../data/category.js'
 import trendingItems from '../data/trendingItems.js'
 import { Link, useNavigate } from "react-router-dom"
+import herobg from '../assets/Images/hero-bg.png'
 
 const HomePage = () => {
   const navigate = useNavigate()
@@ -11,10 +11,10 @@ const HomePage = () => {
     <div className="font-['Plus_Jakarta_Sans'] bg-[#fafafa]">
 
 
-      <div className="pt-16 flex items-center px-6">
+      <div className="flex items-center ">
+        <img src={herobg} className='relative w-[100%] h-[44vw]'/>
 
-
-        <div className="w-1/2 py-24">
+        <div className="text-[1vw] py-24 absolute ml-14">
           <p className="text-[#ff5f2e] bg-[#ffefea] inline-block py-1 px-3 rounded-full border border-[#ffd2c4] text-xs tracking-widest">
             Premium Culinary Experience
           </p>
@@ -33,14 +33,6 @@ const HomePage = () => {
               Order Now
             </button>
           </Link>
-        </div>
-
-
-        <div className="w-1/2 flex justify-center">
-          <img
-            src={heroImg}
-            className="rounded-3xl shadow-lg w-[85%] object-cover"
-          />
         </div>
       </div>
 

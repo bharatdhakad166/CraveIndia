@@ -31,7 +31,7 @@ const menuItems = [
     type: "pizza",
     price: 180,
     rating: 4.7,
-    image: menuImages.burger3,
+    image: menuImages.pizza3,
     description: "Extra cheesy stuffed crust pizza."
   },
   {
@@ -233,7 +233,7 @@ const menuItems = [
     type: "veg",
     price: 120,
     rating: 4.3,
-    image: menuImages.veg2,
+    image: menuImages.veg3,
     description: "Spicy dal tadka."
   },
   {
@@ -243,7 +243,7 @@ const menuItems = [
     type: "veg",
     price: 140,
     rating: 4.4,
-    image: menuImages.veg3,
+    image: menuImages.veg2,
     description: "Spicy chickpeas curry."
   },
   {
