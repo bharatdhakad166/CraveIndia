@@ -6,12 +6,6 @@ import { CartProvider } from './context/CartContext.jsx'
 import { ToastProvider } from './context/ToastContext.jsx'
 import { AuthProvider } from './context/AuthContext.jsx'
 
-var scroll = new LocomotiveScroll({
-  el:document.querySelector("#root"),
-  smooth:true,
-}
-)
-
 createRoot(document.getElementById('root')).render(
   <BrowserRouter>
     <ToastProvider>
